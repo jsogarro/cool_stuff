@@ -1,0 +1,53 @@
+execute pathogen#infect()
+
+"syntax highlighting by default
+syntax on
+
+" highlight the current line
+set cursorline
+
+" enable sytax highlighting
+"syntax enable
+
+" dark background for solarzied
+set background=dark
+
+"highlight current line
+set cursorline
+hi CursorLine term=bold cterm=bold guibg=Grey40
+
+" set terminal colors to 256
+"let g:solarized_termcolors=256
+
+"make terminal colors 256
+set t_Co=256
+
+" set color scheme to solarized
+colorscheme solarized
+
+" indent and spacing stuff
+"set autoindent
+"set cindent
+"set autoindent
+set autowrite
+set shiftwidth=2
+set softtabstop=2
+set expandtab
+"set smarttab
+set backspace=2
+"set ai "Auto indent
+"set si "Smart indent
+set wrap "Wrap lines
+
+" set row numbers
+set number
+
+" mouse settings
+set mouse=a
+
+
+" set the commandheight
+set cmdheight=1
+
+" autoload NERDTree
+au VimEnter *  NERDTree
